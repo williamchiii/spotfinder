@@ -1,7 +1,7 @@
 const spotData = [
     {
         id: 1,
-        image: "https://image2url.com/r2/default/images/1772498912136-e79a9c80-f5e1-40b6-917d-265f915b818f.jpeg",
+        image: "https://image2url.com/r2/default/images/1772523669797-b9df0263-0c13-4734-b3bc-171822fcf81b.jpg",
         title: "Dragon LZ",
         cityState: "Tallassee, TN",
         coordinates: "(35.5472061, -84.0663787)",

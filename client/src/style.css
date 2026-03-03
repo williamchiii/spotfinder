@@ -28,3 +28,27 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1rem;
 }
+
+/* Below is for spot.html*/
+#image-container{
+    width: 25rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+#spot-content{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#title-location{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+a.btn-sm[role="button"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}

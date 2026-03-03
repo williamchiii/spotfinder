@@ -15,8 +15,8 @@ router.get("/", (req,res) => {
 })
 
 //get api endpoint for more detailed page
-router.get("/", (req,res) => {
-    res.status(200).sendFile(path.resolve(__dirname, "../spot.html"))
+router.get("/:spotID", (req,res) => {
+    res.status(200).sendFile(path.resolve(__dirname, "../../client/spot.html"))
 })
 
 export default router

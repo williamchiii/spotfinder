@@ -40,6 +40,7 @@ const renderSpots = async () => {
             link.textContent = 'More Info >'
             link.setAttribute('role', 'button')
             link.href = `/spots/${spotData.id}`
+            link.classList.add('btn-sm')
             bottomContainer.appendChild(link)
 
             card.appendChild(topContainer)
