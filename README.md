@@ -1,10 +1,10 @@
-# WEB103 Project 1 - William Chi
+# WEB103 Project 2 - SpotFinder
 
 Submitted by: William Chi
 
 About this web app: SpotFinder allows the car community to find new spots to take pictures of their cars.
 
-Time spent: **8** hours
+Time spent: **4** hours
 
 ## Required Features
 
@@ -12,39 +12,31 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  -[X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
-- [X] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-https://drive.google.com/file/d/1W9uvQB6rOa0-ae5OvI0_PPztjVdmTsJu/view?usp=sharing
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://youtu.be/EVkfIw_NRM0
 
-<!-- Replace this with whatever GIF tool you used! -->
-Video recorded with MacOS Screen Recorder
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-I encountered initial friction learning how to manipulate the DOM without the use of React.
+Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+I had initial challenges understanding how PostgreSQL works and the commands to view my tables. It was harder to visualize what I was doing compared to my use of MongoDB and Supabase in the past.
 
 ## License
 

@@ -1,5 +1,8 @@
 import express from "express"
 import router from "./routes/spotsRoute.js"
+import "./config/dotenv.js"
+
+console.log(process.env.PORT)
 
 const app = express()
 
